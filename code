@@ -1,0 +1,8 @@
+//Code for Shortening the Url 
+
+import pyshorteners
+
+link = input("Enter URL please:")
+shorteners = pyshorteners.Shortener()
+shortlink = shorteners.tinyurl.short(link)
+print("The shortened URL is:"(shortlink))
